@@ -71,9 +71,9 @@ An adaptive digital world, or maybe not
 
 Ok, so the new machine learning revolution happened already, 10 years ago right? And all those points about computers being pretty stupid don’t hold anymore:
 
-*   Gmail learns which emails I don’t read and puts them in the spam folder √
-*   My phone learns common words I type that aren’t in the dictionary √
-*   My photo manager automatically detects and groups photos by the people that they show √
+*   Gmail learns which emails I don’t read and puts them in the spam folder ✔️
+*   My phone learns common words I type that aren’t in the dictionary ✔️
+*   My photo manager automatically detects and groups photos by the people that they show ✔️
 *   …?
 
 So I’m having a hard time coming up with more examples. It’s easy to think that AI has already transformed our lives completely. Actually, AI is _very far_ from being embedded in the world at anywhere near the kind of granularity that it could be. A few counter examples:
