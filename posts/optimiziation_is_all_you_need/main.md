@@ -45,15 +45,24 @@ Well I’ll tell you who/what is doing this: modern machine learning systems, _a
 
 *   A cost function J(θ)J(\\theta)J(θ), which takes some parameters θ\\thetaθ. Think of θ\\thetaθ as a list of things that could be changed in your system. For example:
 
-θClippy\=\[θ0,θ1\]\=\[probability\_of\_appearing,smirkiness\] \\theta\_{\\text{Clippy}} = \[\\theta\_0, \\theta\_1\] = \[\\text{probability\\\_of\\\_appearing}, \\text{smirkiness}\] θClippy​\=\[θ0​,θ1​\]\=\[probability\_of\_appearing,smirkiness\]
+$$
+θ_{\text{Clippy}}
+= [\theta_0, \theta_1]
+= [\text{probability\_of\_appearing}, \text{smirkiness}] \theta_{\text{Clippy}}
+$$
 
-*   An optimizer, whose only job is to minimize the cost function. I.e. find the parameters θ\\thetaθ that, in this case, make J(θ)J(\\theta)J(θ) as big or as small as possible. It might for example measure user happiness as a function of the parameters like so:
+*   An optimizer, whose only job is to minimize the cost function. I.e. find the parameters $\theta$ that, in this case, make $J(\theta)$ as big or as small as possible. It might for example measure user happiness as a function of the parameters like so:
 
-JHappiness(θClippy)\=−(θ02+θ12)J\_{\\text{Happiness}}(\\theta\_{\\text{Clippy}}) = - (\\theta\_0^2 + \\theta\_1^2)JHappiness​(θClippy​)\=−(θ02​+θ12​) Hopefully, the optimizer would discover the optimal parameters θ∗\=arg max⁡θJ(θ)\=\[0,0\]\\theta^\* = \\argmax\_{\\theta} J(\\theta) =\[0, 0\]θ∗\=argmaxθ​J(θ)\=\[0,0\] (don’t show your face around here again, \*Clippy\*).
+$$
+J_{\text{Happiness}}(\theta_{\text{Clippy}}) = - (\theta_0^2 + \theta_1^2)
+$$
+
+
+Hopefully, the optimizer would discover the optimal parameters $θ^* = \text{arg max}_{\theta} J(θ) = [0, 0]$ (don’t show your face around here again, \*Clippy\*).
 
 A cost function could be anything. Often it’s something like minimizing the “error” of some prediction. Predicting what products people want to buy, so that they can be rady to ship from the warehouse. Predicting what the weather will be like three days from now so that we can start marinading for the barbecue. A slightly different flavour of AI is concerned with the opposite thing - maximizing (not minimizing) a “reward function”. Programming a computer to play chess, or [Go](https://deepmind.com/research/case-studies/alphago-the-story-so-far), or to collect gold coins in an [_Atari_ game](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf).
 
-But whether you’re talking about maximimzing or minimizing, you’re still just **optimizing**. Finding the point of inflexion in your J(θ)J(\\theta)J(θ) curve.
+But whether you’re talking about maximimzing or minimizing, you’re still just **optimizing**. Finding the point of inflection in your $J(\theta)$ curve.
 
 The crucial difference between a system that is able to optimize for some function and a system with pre-programmed rules, is that the optimizable system can in theory reach an infinite number of different conclusions based on the interactions it has with the environment. And you won’t find these conclusions written anywhere in the code, at least, not in any spoken language. This is broadly not true of expert systems, which are essentially just big decision trees. The leaves may be many, but they’re finite.
 
