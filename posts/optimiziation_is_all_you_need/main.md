@@ -48,7 +48,7 @@ Well I’ll tell you who/what is doing this: modern machine learning systems, _a
 $$
 θ_{\text{Clippy}}
 = [\theta_0, \theta_1]
-= [\text{probability\\_of\\_appearing}, \text{smirkiness}] \theta_{\text{Clippy}}
+= [\text{probability of appearing}, \text{smirkiness}] \theta_{\text{Clippy}}
 $$
 
 *   An optimizer, whose only job is to minimize the cost function. I.e. find the parameters $\theta$ that, in this case, make $J(\theta)$ as big or as small as possible. It might for example measure user happiness as a function of the parameters like so:
