@@ -39,7 +39,7 @@ Optimization is all you need
 
 Did you ever wonder what was the use of learning calculus in school? Unless you work in a technical field, you’ve probably never since had to differentiate a curve and find its minimum:
 
-![](./Optimization is All You Need_files/optimization.png)
+![](optimization.png)
 
 Well I’ll tell you who/what is doing this: modern machine learning systems, _almost all of the time_. If you had to summarize modern machine learning, AI (and “big data”), it would essentially boil down to:
 
@@ -94,7 +94,7 @@ This might seem counterintuitive, but consider these examples:
 
 **Yes** - I am saying that, given an appropriate cost-function and optimizer, it is theoretically possible to have a machine generate the entire source code of a computer’s operating system. One experiment that I’m sure we will see achieved soon is to have a deep neural network learn an _Atari_ (or _Windows 95_?) emulator by interacting via the keyboard / mouse and observing the screen outputs. I haven’t thought enough whether this would even be a surprising / notable advance.
 
-![](./Optimization is All You Need_files/emulator.png)
+![](emulator.png)
 
 There are a few problems. Firstly, systems will need to have the physical capability to sense the outcomes of their behaviour. This is doable in most digital systems which have an input interface. But more broadly, there may just not be enough _signal_ or _bandwidth_ in these channels. For example, _Netflix_, as good as its reccomender system is, doesn’t yet have the sensing capability to hear you crying (but maybe _Alexa_ does) or smell your tears, so it won’t suggest that you watch \*_insert feel-good smash-hit romcom of the year_\* if you’re having a tough time. It will probably still suggest you watch Louis Theroux’s _Altered States_.
 
@@ -121,7 +121,7 @@ Luckily, in nature there is a lot of structure that is reusable. A very useful o
 
 This kind of bias is called “translation invariance”, since the features that our algorithm is learning to detect can be found anywhere in the image. A more famous example is [_Occam’s Razor_](https://en.wikipedia.org/wiki/Occam%27s_razor), which says that you should try to find the minimally complex model that can explain your data before trying out the fancy ones.
 
-![](./Optimization is All You Need_files/inductive_bias.jpg)
+![](inductive_bias.jpg)
 
 Which is the right fit: b), c) or d)?
 
