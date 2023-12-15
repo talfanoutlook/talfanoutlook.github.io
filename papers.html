@@ -95,11 +95,12 @@
 
         <hr>
 
-        Paper 1
+        <h4>New paper on active data selection for large-scale vision pre-training </h4>
 
-        <br>
-
-        Paper 2
+        We just released our paper (arXiv link)[https://arxiv.org/abs/2312.05328] on active data selection for large-scale vision pre-training.
+        We do this by using small models to select data on behalf of the larger model being trained. Since the data selection models are small, the compute overhead is negligible, but still provides signifiacnt training acceleration.
+        There are two main results. Firstly, it's possible to speed up model training by ~25% while at the same time saving ~25% total FLOPs.
+        Secondly, if you have a pre-trained model and you don't care about the overhead of scoring, you can get much bigger (~45%) speed ups in terms of training iterations.
 
         <br>
         
