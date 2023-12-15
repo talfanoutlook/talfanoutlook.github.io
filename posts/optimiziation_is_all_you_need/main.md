@@ -23,7 +23,7 @@ Searle’s intention was to raise the question of whether a system based only on
 
 But that’s a bit of an open-ended and philosophical question, certainly not one we’re going to get to the bottom of here. A more testable engineering question is - could a system built on rules emulate intelligence in a passable way? It seems that the answer from the “expert systems” experiment is a tentative no. The common failure mode among these approaches was that, although some systems could perform well in small and constrained scenarios, they would fail to scale up - or “generalize” to new task outside of the types of data that they were engineered to work with. In a word, they were brittle. And no matter how big the rule book was made, the problem wouldn’t go away.
 
-![](./Optimization is All You Need_files/expert_system.gif)
+![](expert_system.gif)
 
 This isn’t to say that “expert” or “rule-based” systems aren’t _useful_. They are - as long as either:
 
