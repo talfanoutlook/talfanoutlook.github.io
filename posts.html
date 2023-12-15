@@ -95,27 +95,31 @@
 
         <hr>
 
-        const posts = [
-           "# Post 1.",
-           "# Post 2.",
-           // Add more posts as needed
-        ];
-      
-        const postList = document.getElementById('post-list');
-        const container = document.getElementById('markdown-container');
-      
-        function loadPost(index) {
-           container.innerHTML = marked(posts[index]);
-        }
-      
-        // You can dynamically generate the post list based on the 'posts' array
-        function generatePostList() {
-           const listItems = posts.map((_, index) => `<li><a href="#" onclick="loadPost(${index})">Post ${index + 1}</a></li>`);
-           postList.innerHTML = `<ul>${listItems.join('')}</ul>`;
-        }
-      
-        // Initial rendering
-        generatePostList();
+        <script>
+
+           const posts = [
+              "# Post 1.",
+              "# Post 2.",
+              // Add more posts as needed
+           ];
+         
+           const postList = document.getElementById('post-list');
+           const container = document.getElementById('markdown-container');
+         
+           function loadPost(index) {
+              container.innerHTML = marked(posts[index]);
+           }
+         
+           // You can dynamically generate the post list based on the 'posts' array
+           function generatePostList() {
+              const listItems = posts.map((_, index) => `<li><a href="#" onclick="loadPost(${index})">Post ${index + 1}</a></li>`);
+              postList.innerHTML = `<ul>${listItems.join('')}</ul>`;
+           }
+         
+           // Initial rendering
+           generatePostList();
+
+        </script>
         
         </li></ul>
 
