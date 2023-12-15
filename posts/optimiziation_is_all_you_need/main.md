@@ -23,7 +23,7 @@ Searle’s intention was to raise the question of whether a system based only on
 
 But that’s a bit of an open-ended and philosophical question, certainly not one we’re going to get to the bottom of here. A more testable engineering question is - could a system built on rules emulate intelligence in a passable way? It seems that the answer from the “expert systems” experiment is a tentative no. The common failure mode among these approaches was that, although some systems could perform well in small and constrained scenarios, they would fail to scale up - or “generalize” to new task outside of the types of data that they were engineered to work with. In a word, they were brittle. And no matter how big the rule book was made, the problem wouldn’t go away.
 
-![](expert_system.gif)
+<p align="center"> <img src="expert_system.gif" /></p>
 
 This isn’t to say that “expert” or “rule-based” systems aren’t _useful_. They are - as long as either:
 
@@ -39,7 +39,7 @@ Optimization is all you need
 
 Did you ever wonder what was the use of learning calculus in school? Unless you work in a technical field, you’ve probably never since had to differentiate a curve and find its minimum:
 
-![](optimization.png)
+<p align="center"> <img src="optimization.png" /></p>
 
 Well I’ll tell you who/what is doing this: modern machine learning systems, _almost all of the time_. If you had to summarize modern machine learning, AI (and “big data”), it would essentially boil down to:
 
@@ -103,7 +103,7 @@ This might seem counterintuitive, but consider these examples:
 
 **Yes** - I am saying that, given an appropriate cost-function and optimizer, it is theoretically possible to have a machine generate the entire source code of a computer’s operating system. One experiment that I’m sure we will see achieved soon is to have a deep neural network learn an _Atari_ (or _Windows 95_?) emulator by interacting via the keyboard / mouse and observing the screen outputs. I haven’t thought enough whether this would even be a surprising / notable advance.
 
-![](emulator.png)
+<p align="center"> <img src="emulator.png" /></p>
 
 There are a few problems. Firstly, systems will need to have the physical capability to sense the outcomes of their behaviour. This is doable in most digital systems which have an input interface. But more broadly, there may just not be enough _signal_ or _bandwidth_ in these channels. For example, _Netflix_, as good as its reccomender system is, doesn’t yet have the sensing capability to hear you crying (but maybe _Alexa_ does) or smell your tears, so it won’t suggest that you watch \*_insert feel-good smash-hit romcom of the year_\* if you’re having a tough time. It will probably still suggest you watch Louis Theroux’s _Altered States_.
 
@@ -130,7 +130,7 @@ Luckily, in nature there is a lot of structure that is reusable. A very useful o
 
 This kind of bias is called “translation invariance”, since the features that our algorithm is learning to detect can be found anywhere in the image. A more famous example is [_Occam’s Razor_](https://en.wikipedia.org/wiki/Occam%27s_razor), which says that you should try to find the minimally complex model that can explain your data before trying out the fancy ones.
 
-![](inductive_bias.jpg)
+<p align="center"> <img src="inductive_bias.jpg" /></p>
 
 Which is the right fit: b), c) or d)?
 
