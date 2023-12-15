@@ -7,7 +7,7 @@ Cognitive scientists and AI researchers spend most of their time trying to figur
 
 Learning is a fundamental feature of the natural world but a fairly recent addition to the human-engineered one. Computers are a mature technology (we know a lot about how to build them and we can do it very cheaply) and it’s tempting to think of them as “intelligent” machines. But even though a lot has changed in recent years, they are still by and large just static data processing instruments.
 
-<img align="right" src="/talfanevans.github.io/posts/optimiziation_is_all_you_need/clippy.png" alt="Clippy">
+<img align="right" src="/talfanevans.github.io/posts/optimization_is_all_you_need/clippy.png" alt="Clippy">
 
 ![](clippy.png)
 
