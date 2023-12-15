@@ -131,7 +131,7 @@ Luckily, in nature there is a lot of structure that is reusable. A very useful o
 This kind of bias is called “translation invariance”, since the features that our algorithm is learning to detect can be found anywhere in the image. A more famous example is [_Occam’s Razor_](https://en.wikipedia.org/wiki/Occam%27s_razor), which says that you should try to find the minimally complex model that can explain your data before trying out the fancy ones.
 
 <p align="center"> <img src="inductive_bias.jpg" /> </p>
-<p align="center"> Which is the right fit: b), c) or d)?</p>    
+<p align="center"> <em>Which is the right fit: b), c) or d)?</em></p>    
 
 But there is always a cost to using any inductive bias. For example, if it’s actually true that a feature only ever appears at a specific location in an image (e.g. a mouth is always near the bottom of a face, assuming the portrait is the right way up), then you’re wasting your time by searching people’s foreheads for mouths.
 
