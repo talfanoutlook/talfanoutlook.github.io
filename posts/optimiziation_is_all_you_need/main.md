@@ -116,7 +116,7 @@ But an equally big problem, which is the day-to-day concern of most of AI resear
 Inductive biases
 ----------------
 
-Finding the minimium of the curve by finding the optimal parameters θ∗\\theta^\*θ∗ is in many cases a completely hopeless problem. Think about how you would go about deciding how best to lay the table for dinner. If you have CCC pieces of cutlery and an equal number of spots on the table in which you could place them (e.g. _spoon - fork - plate - knife - … - fishknife?_), then there are N!\=N∗(N−1)∗(N−2)∗…(1)N!=N\*(N-1)\*(N-2)\*…(1)N!\=N∗(N−1)∗(N−2)∗…(1) possible ways to do it. For 6 pieces of cutlery that’s 720 possible permuations. And that’s just one place setting!
+Finding the minimium of the curve by finding the optimal parameters $\theta^*$ is in many cases a completely hopeless problem. Think about how you would go about deciding how best to lay the table for dinner. If you have CCC pieces of cutlery and an equal number of spots on the table in which you could place them (e.g. _spoon - fork - plate - knife - … - fishknife?_), then there are $N! = N(N−1)(N−2)…(1)$ possible ways to do it. For 6 pieces of cutlery that’s 720 possible permuations. And that’s just one place setting!
 
 This is a type of optimization, where our cost-function is the overall ease with which our guests will be able to tackle their dinners. If you misallocate the spoons, someone’s going to have get creative with their fork when the soup course comes. Which could be messy. Which can also be factored into you cost function.
 
